@@ -83,7 +83,7 @@ exec zsh
 
 Finall, install the latest version of Ruby
 ```zsh
-ruby-install -U
+ruby-install ruby
 ```
 
 ## Installing Python
