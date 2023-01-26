@@ -86,6 +86,9 @@ Finall, install the latest version of Ruby
 ruby-install ruby
 ```
 
+*Note: If running Ruby 3.2 and recieving an error called "tainted?": update liquid
+`bundle update liquid`
+
 ## Installing Python
 Download the latest version of Python and install manually
 
