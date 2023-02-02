@@ -15,7 +15,7 @@ xcode-select --install
 
 First, install directly from the source
 ```zsh
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)”
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
 After installing, you'll see something like the following message. Copy the three lines that begin with "echo," "echo," and "eval" from your terminal. Then paste and run. Your paths will be different than what you see here.
@@ -99,4 +99,5 @@ Download the latest version of Python and install manually
 sudo -H pip3 install -U pipenv
 ```
 
-
+## Create an "Open with VSCode" Action using Automator
+[Open a folder in vscode through Finder in macOS?](https://stackoverflow.com/a/70512321/7799574 "Best Answer IMHO")
