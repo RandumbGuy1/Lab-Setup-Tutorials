@@ -69,11 +69,13 @@ Ruby is used by the MacOS so it's important to use a Ruby Version Manager. Jekyl
 
 *Reference: https://mac.install.guide/ruby/12.html
 
+1. Install ruby-install and chruby
 ```zsh
 brew install ruby-install chruby
 ```
 
-After installing, you'll see the following instructions in the terminal
+2. After installing, you'll see the following instructions in the terminal. 
+3. Copy the lines in your terminal that say "source".
 ```bash
 ==> chruby
 Add the following to the ~/.bash_profile or ~/.zshrc file:
@@ -85,42 +87,64 @@ add the following to ~/.bash_profile or ~/.zshrc:
 
 ```
 
-#### Add chruby to your terminal path
-
-Create a zsh terminal profile file if you do not already have one
+4. Create a zsh terminal profile file if you do not already have one
 ```zsh
 touch ~/.zshrc  
 ```
 
-Open the file in Text Edit
+5. Open the file in Text Edit
 ```zsh
 open -e ~/.zshrc
 ```
 
-Paste the following source paths
+6. Paste the two source lines identified in step 3
 ```text
 source /opt/homebrew/opt/chruby/share/chruby/chruby.sh
 source /opt/homebrew/opt/chruby/share/chruby/auto.sh
-chruby ruby-3.2.0
 ```
 
-After pasting, save the file, then go back to terminal.
+7. Save the file (But leave open).
 
-You can refresh your terminal with the following command. This will reload terminal with your profile paths
+8. Refresh your terminal with the following command. This will reload terminal with your profile paths
 
 ```zsh
 exec zsh
 ```
 
-#### Installing Latest Ruby
-
-Finall, install the latest version of Ruby
+9. Finall, install the latest version of Ruby
 ```zsh
 ruby-install ruby
 ```
 
-*Note: If running Ruby 3.2 and recieving an error called "tainted?": update liquid
-`bundle update liquid`
+10. Add the following line to the end of your zsh terminal profile (Still open from step 6).
+```text
+chruby ruby-3.2.0
+```
+
+11. Save the file, and refresh your terminal.
+```zsh
+exec zsh
+```
+
+## Jekyll
+Jekyll requires the latest version of Ruby. See instructions above to install correctly.
+
+1. Check your version of Ruby by opening a terminal
+
+```zsh
+ruby --version
+```
+*As of the time of this writing, we are on Ruby version 3.2.0
+
+2. If the current version is installed, install Jekyll:
+```zsh
+gem install jekyll
+```
+
+*Note: If running Ruby >= 3.2 and recieving an error called "tainted?": update liquid.
+```zsh
+bundle update liquid
+```
 
 ## Python
 Download the latest version of Python and install manually
