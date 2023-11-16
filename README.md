@@ -51,7 +51,7 @@ After installing, you'll see something like the following message.
 2. Then paste and run. 
 3. **DO NOT PASTE THE CODE BELOW** Your paths will be different than what you see here. 
 4. Instead **read your terminal** and follow those instructions.
-```zsh
+```{: zsh, .no-copy}
  ==> Next steps:
  - Run these three commands in your terminal to add Homebrew to your PATH:
      echo '# Set PATH, MANPATH, etc., for Homebrew.' >> /Users/<USER_NAME>/.zprofile
