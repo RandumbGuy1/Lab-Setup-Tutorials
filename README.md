@@ -52,15 +52,15 @@ After installing, you'll see something like the following message.
 3. **DO NOT PASTE THE CODE BELOW** Your paths will be different than what you see here. 
 4. Instead **read your terminal** and follow those instructions.
 >```zsh
- ==> Next steps:
- - Run these three commands in your terminal to add Homebrew to your PATH:
-     echo '# Set PATH, MANPATH, etc., for Homebrew.' >> /Users/<USER_NAME>/.zprofile
-     echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/<USER_NAME>/.zprofile
-     eval "$(/opt/homebrew/bin/brew shellenv)"
- - Run brew help to get started
- - Further documentation:
+> ==> Next steps:
+> - Run these three commands in your terminal to add Homebrew to your PATH:
+>     echo '# Set PATH, MANPATH, etc., for Homebrew.' >> /Users/<USER_NAME>/.zprofile
+>     echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/<USER_NAME>/.zprofile
+>     eval "$(/opt/homebrew/bin/brew shellenv)"
+> - Run brew help to get started
+> - Further documentation:
      https://docs.brew.sh
-```
+>```
 
 ## Dev Environments
 
