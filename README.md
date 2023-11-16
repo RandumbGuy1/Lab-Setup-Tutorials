@@ -59,7 +59,7 @@ After installing, you'll see something like the following message.
 >     eval "$(/opt/homebrew/bin/brew shellenv)"
 > - Run brew help to get started
 > - Further documentation:
-     https://docs.brew.sh
+>     https://docs.brew.sh
 >```
 
 ## Dev Environments
