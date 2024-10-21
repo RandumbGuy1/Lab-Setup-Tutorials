@@ -6,6 +6,11 @@ Download the latest version of Python and install manually. If your project requ
 ## Version Management
 We use Pipenv to manage language versioning for our python projects. This tool allows you to create a virtual envelope (VENV) for each project and install dependancies there instead of mucking up the base installation for all users.
 
+Check your python version
+```zsh
+python3 --version
+```
+
 # Installing pipenv
 ```zsh
 sudo -H pip3 install -U pipenv
@@ -15,22 +20,17 @@ sudo -H pip3 install -U pipenv
 To install django for a new project, first create a VENV in your project directory
 
 ```zsh
-pipenv install
+pyhon3 -m pipenv install
 ```
 
 Activate the VENV
 ```zsh
-pipenv shell
-```
-
-Check your python version
-```zsh
-python3 --version
+pyhon3 -m pipenv shell
 ```
 
 Install Django
 ```zsh
-pip install django
+pip3 install django
 ```
 
 Check your Django version
