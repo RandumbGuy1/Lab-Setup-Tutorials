@@ -1,0 +1,3 @@
+## Installing Advanced Custom Fields Plugin
+> [!WARNING]
+> Recently Wordpress has taken over the ACF plugin and it has now been renamed to Secure Custom Fields in their plugins catalog. Everything from this tutorial will be based on SCF, however if you want to stick with ACF the download instructions are [here](ww.advancedcustomfields.com/blog/installing-and-upgrading-to-the-latest-version-of-acf/)
